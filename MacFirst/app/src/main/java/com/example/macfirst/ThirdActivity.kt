@@ -2,9 +2,8 @@ package com.example.macfirst
 
 import android.app.Activity
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_second.*
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_third.*
 
 class ThirdActivity : AppCompatActivity() {
