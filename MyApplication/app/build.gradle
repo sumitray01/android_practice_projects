@@ -1,19 +1,15 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-android-extensions'
 }
 
 android {
+    namespace 'com.example.myapplication'
     compileSdk 33
-    buildFeatures {
-        viewBinding = true
-    }
-
 
     defaultConfig {
-        applicationId "com.example.fragmenttest"
-        minSdk 23
+        applicationId "com.example.myapplication"
+        minSdk 24
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -34,7 +30,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    namespace 'com.example.fragmenttest'
 }
 
 dependencies {
